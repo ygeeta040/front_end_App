@@ -14,7 +14,19 @@ import Chats from './Hooks/Chats';
 import CleanUp from './Hooks/CleanUp';
 import FetchApi from './Hooks/FetchApi';
 import CoronaCase from './Hooks/apii/CoronaCase';
-import ImageApi from "./Hooks/ImageApi";
+// import ImageApi from "./Hooks/ImageApi";
+import Home from './bootstrap5/Home';
+import About from './bootstrap5/About'
+import Services from './bootstrap5/Services';
+import Gallery from './bootstrap5/Gallery';
+import Contact from './bootstrap5/Contact';
+import Carasoul from './bootstrap5/Carasoul';
+import LastSec from './bootstrap5/LastSec';
+import Footer from './bootstrap5/Footer';
+// import Contact from './Contact';
+import IncDec from './Hooks/IncDec';
+import UseReducer from './Hooks/UseReducer';
+import ConA from './Hooks/context/ConA';
 
 const App=()=> {
   return (
@@ -36,7 +48,19 @@ const App=()=> {
 <Route element={<CleanUp/>} path="/CleanUp" /> 
 <Route element={<FetchApi/>} path="/FetchApi" /> 
 <Route element={<CoronaCase/>} path="/CoronaCase" /> 
-<Route element={<ImageApi/>} path="/ImageApi"/>
+{/* <Route element={<ImageApi/>} path="/ImageApi"/> */}
+<Route element={<Home/>} path="/Home" /> 
+<Route element={<About/>} path="/About" /> 
+<Route element={<Contact/>} path="/Contact" /> 
+<Route element={<Gallery/>} path="/Gallery" /> 
+<Route element={<Services/>} path="/Services" /> 
+<Route element={<Carasoul/>} path="/Carasoul" /> 
+<Route element={<LastSec/>} path="/LastSec" /> 
+<Route element={<Footer/>} path="/Footer" /> 
+<Route element={<IncDec/>} path="/IncDec" /> 
+<Route element={<UseReducer/>} path="/UseReducer" /> 
+<Route element={<ConA/>} path="/ConA" /> 
+
 </Routes>
 
 </BrowserRouter>

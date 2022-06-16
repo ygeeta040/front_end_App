@@ -1,0 +1,45 @@
+.carousel-item img{
+    width: 100%;
+    height: 92.5vh;
+}
+
+/* .carousel-caption{
+    bottom: 250px;
+} */
+
+.about_img{
+    min-width: 100%;
+    max-width: 280px;
+
+}
+
+.para{
+  text-justify: newspaper;
+}
+
+.myimg img{
+    /* padding-right: 0;
+    padding-left: 0;
+    height: 221px; */
+
+    width: 100%;
+    height: 100%;
+   
+}
+
+.offer_style{
+    background: #a6dcef;
+}
+
+.my_paar1{
+    font-size: 50px;
+}
+
+
+footer p{
+    margin-bottom: 0;
+}
+
+body{
+    position: relative;
+}

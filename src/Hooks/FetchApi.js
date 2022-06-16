@@ -1,6 +1,6 @@
 import React,  { useState, useEffect } from 'react'
 import Loading from './Loading';
-
+import HomeNavigation from '../bootstrap5/HomeNavigation';
 
 import './FetchApi.css';
 
@@ -33,7 +33,7 @@ if(loading){
 
   return (
 <>
-
+<HomeNavigation/>
 <h1  className="headinds">Get Github Users from API</h1>
         <div className='profile-area'>
             <div className='container'>
