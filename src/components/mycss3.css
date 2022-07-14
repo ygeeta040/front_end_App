@@ -1,0 +1,13 @@
+#text-wrap{
+    word-wrap: break-word;
+    width: 50px;
+    border: 6px solid red;
+}
+
+.para{
+column-count: 3;
+text-align: justify;
+margin: 20px;
+column-gap: 60px;
+column-rule: dashed;
+}

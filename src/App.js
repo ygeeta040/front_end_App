@@ -24,10 +24,20 @@ import Carasoul from './bootstrap5/Carasoul';
 import LastSec from './bootstrap5/LastSec';
 import Footer from './bootstrap5/Footer';
 // import Contact from './Contact';
-import IncDec from './Hooks/IncDec';
-import UseReducer from './Hooks/UseReducer';
-import ConA from './Hooks/context/ConA';
-
+// import IncDec from './Hooks/IncDec';
+// import UseReducer from './Hooks/UseReducer';
+// import ConA from './Hooks/context/ConA';
+// import FormOne from './components/FORM/FormOne';
+// import FormTwo from "./components/FORM/FormTwo";
+// import FormTree from "./components/FORM/FomTree";
+// import Dumi from "./components/FORM/Dumi";
+// import FirstWork from "./components/Complete_WEB_Responsive/my_work/FirstWork";
+//  import Homes from "./components/Pages/Homes";
+//  import Abouts from "./components/Pages/Abouts";
+//  import Contacts from "./components/Pages/Contacts";
+//  import Navigations from "./components/Layout/Navigations";
+//  import AddUsers from "./components/USERS/AddUsers";
+//  import EditUsers from "./components/USERS/EditUsers";
 const App=()=> {
   return (
     <div>
@@ -57,10 +67,20 @@ const App=()=> {
 <Route element={<Carasoul/>} path="/Carasoul" /> 
 <Route element={<LastSec/>} path="/LastSec" /> 
 <Route element={<Footer/>} path="/Footer" /> 
-<Route element={<IncDec/>} path="/IncDec" /> 
+{/* <Route element={<IncDec/>} path="/IncDec" /> 
 <Route element={<UseReducer/>} path="/UseReducer" /> 
 <Route element={<ConA/>} path="/ConA" /> 
-
+<Route element={<FormOne/>} path="/FormOne"/>
+<Route element={<FormTwo/>} path="/FormTwo"/>
+<Route element={<FormTree/>} path="FormTree"/>
+<Route element={<Dumi/>} path="Dumi"/>
+<Route element={<FirstWork/>} path="FirstWork"/>*/}
+{/* <Route element={<Homes/>} path="Homes"/> 
+<Route element={<Abouts/>} path="/Abouts" /> 
+<Route element={<Contacts/>} path="/Contacts" /> 
+<Route element={<Navigations/>} path="/Navigations" />
+<Route element={<AddUsers/>} path="/AddUsers" />
+<Route element={<EditUsers/>} path="/EditUsers/:id" /> */}
 </Routes>
 
 </BrowserRouter>
